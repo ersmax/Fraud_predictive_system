@@ -4,4 +4,10 @@ The aim is to build a predictive framework to frauds. Frauds are a serious matte
 
 The performance of different models will be compared by means of ROC curves, Recall, F1, target 1:500 and cost of misclassification.
 
-The dataset: https://www.kaggle.com/datasets/kartik2112/fraud-detection/data
+# DOI Research Paper
+http://dx.doi.org/10.13140/RG.2.2.14500.59525
+
+## Dataset
+https://www.kaggle.com/datasets/kartik2112/fraud-detection/data
+
+
