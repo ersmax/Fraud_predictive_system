@@ -62,32 +62,50 @@ Operational cost metric:
 
 ## Figures (relative links)
 
-- Fraud vs Non‑Fraud amounts:
-  ![Fraud vs Non-Fraud amounts](./figures/comparingFraudNonFraudAmount.png)
-
-- Correlation heatmap:
-  ![Correlation map](./figures/correlationMap.png)
-
-- Generalization gap (70% train / validation, k=9,500):
-  ![Generalization gap validation](./figures/generalizationGapValidation.png)
-
-- Generalization gap (100% train / test):
-  ![Generalization gap testing](./figures/generalizationGapTesting.png)
-
-- ROC curve (Decision Tree):
-  ![ROC Decision Tree](./figures/ROCdecision_tree.png)
-
-- Coverage curve (Decision Tree):
-  ![Coverage Decision Tree](./figures/CoverageDecisionTree.png)
-
-- Precision‑Recall curve (Decision Tree):
-  ![PR Decision Tree](./figures/PRdecision_tree.png)
-
-- Decision tree visualization:
-  ![Decision Tree](./figures/decision_treeTesting.png)
-
-- Feature importance:
-  ![Feature Importance](./figures/featureImportance.png)
+<table>
+  <tr>
+    <td align="center">
+      <a href="./figures/comparingFraudNonFraudAmount.png"><img src="./figures/comparingFraudNonFraudAmount.png" alt="Fraud vs Non-Fraud amounts" width="240"/></a><br/>
+      <small>Fraud vs Non‑Fraud amounts</small>
+    </td>
+    <td align="center">
+      <a href="./figures/correlationMap.png"><img src="./figures/correlationMap.png" alt="Correlation map" width="240"/></a><br/>
+      <small>Correlation heatmap</small>
+    </td>
+    <td align="center">
+      <a href="./figures/generalizationGapValidation.png"><img src="./figures/generalizationGapValidation.png" alt="Generalization gap validation" width="240"/></a><br/>
+      <small>Generalization gap (70% train / validation)</small>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="./figures/generalizationGapTesting.png"><img src="./figures/generalizationGapTesting.png" alt="Generalization gap testing" width="240"/></a><br/>
+      <small>Generalization gap (100% train / test)</small>
+    </td>
+    <td align="center">
+      <a href="./figures/ROCdecision_tree.png"><img src="./figures/ROCdecision_tree.png" alt="ROC Decision Tree" width="240"/></a><br/>
+      <small>ROC curve (Decision Tree)</small>
+    </td>
+    <td align="center">
+      <a href="./figures/CoverageDecisionTree.png"><img src="./figures/CoverageDecisionTree.png" alt="Coverage Decision Tree" width="240"/></a><br/>
+      <small>Coverage curve (Decision Tree)</small>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="./figures/PRdecision_tree.png"><img src="./figures/PRdecision_tree.png" alt="PR Decision Tree" width="240"/></a><br/>
+      <small>Precision‑Recall curve (Decision Tree)</small>
+    </td>
+    <td align="center">
+      <a href="./figures/decision_treeTesting.png"><img src="./figures/decision_treeTesting.png" alt="Decision Tree" width="240"/></a><br/>
+      <small>Decision tree visualization</small>
+    </td>
+    <td align="center">
+      <a href="./figures/featureImportance.png"><img src="./figures/featureImportance.png" alt="Feature Importance" width="240"/></a><br/>
+      <small>Feature importance</small>
+    </td>
+  </tr>
+</table>
 
 ## How to run (Windows / VS Code)
 
