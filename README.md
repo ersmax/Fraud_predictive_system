@@ -54,13 +54,13 @@ Operational cost metric:
   - review_cost estimated ≈ \$0.84 per reviewed transaction
 - Also use the FN:FP target (1:500) to guide model tuning.
 
-## Key results (summary)
+## Key results 
 
 - Decision Tree (SMOTE k=9,500, max_depth=9) gave the best trade‑off for the operational objective — very high recall with manageable FP workload and the lowest misclassification cost among tested models.
 - Neural Network achieved similar recall but a higher FP cost.
 - Random Forest, SVM and Logistic Regression provided useful baselines but had trade‑offs (training time, FP rate, interpretability).
 
-## Figures (relative links)
+## Figures 
 
 <table>
   <tr>
@@ -107,7 +107,7 @@ Operational cost metric:
   </tr>
 </table>
 
-## How to run (Windows / VS Code)
+## How to run
 
 1. Create environment and install deps:
    - pip install -r requirements.txt
@@ -119,7 +119,7 @@ Operational cost metric:
 
 4. To regenerate saved figures, enable the commented plt.savefig(...) lines in plotting cells and ensure a `figures/` folder exists.
 
-## Next steps / suggestions
+## Suggestions
 
 - Experiment with boosting (XGBoost / LightGBM) and cost‑sensitive loss functions.
 - Add unit tests for preprocessing functions and a small integration test on a sampled subset.
@@ -128,3 +128,5 @@ Operational cost metric:
 
 - Data sourced from [Kaggle](https://www.kaggle.com/datasets/kartik2112/fraud-detection/data) (`~200mb`)
 - Code and analysis in this repo; adapt as needed for publication.
+- Please read License to know how to use this work. 
+- Plese cite my work and GitHub if you share your changes online.
