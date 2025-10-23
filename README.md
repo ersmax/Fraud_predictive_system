@@ -1,5 +1,5 @@
 # Fraud Detection — Transaction Classification
-[![DOI](http://dx.doi.org/10.13140/RG.2.2.14500.59525) [![License](https://img.shields.io/badge/License-Check%20LICENSE-lightgrey)](#license) 
+[![DOI](http://dx.doi.org/10.13140/RG.2.2.14500.59525)] [![License](https://img.shields.io/badge/License-Check%20LICENSE-lightgrey)](#license) 
 
 ## Introduction
 
